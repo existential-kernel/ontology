@@ -1,6 +1,6 @@
 # Existential Kernel -- Ontology
 
-A domain ontology organized in concentric rings. Ring 0 is the universal kernel -- 14 terms that model Existence at the broadest scope. Ring 1 bridges the kernel to software engineering via Domain-Driven Design concepts.
+A domain ontology organized in concentric rings with 114 term files. Ring 0 is the universal kernel -- 14 terms that model Existence at the broadest scope. Ring 1 bridges the kernel to software engineering via Domain-Driven Design concepts. Ring 2 extends the ontology with 85 additional terms covering philosophy, spirituality, cognition, and other domains.
 
 Terms are defined as interconnected nodes in `src/`. Each node follows the structure in [SPEC.md](SPEC.md): **Ontology** (what it is), **Axiology** (why it matters), **Epistemology** (how we know it).
 
@@ -8,11 +8,11 @@ Terms are defined as interconnected nodes in `src/`. Each node follows the struc
 
 ```
 Ring 0 (kernel)    -- 14 universal terms, always loaded
-Ring 1 (software)  -- 17 terms bridging to DDD and software domains
-Ring 2+ (future)   -- domain-specific extensions
+Ring 1 (software)  -- 17 terms bridging to DDD and software domains (2 pending)
+Ring 2 (extended)  -- 85 terms across philosophy, spirituality, cognition, and more
 ```
 
-Rings are additive. Ring 1 assumes Ring 0. Higher rings assume all lower rings. See [`ring.toml`](ring.toml) for the canonical ring definitions.
+Rings are additive. Ring 1 assumes Ring 0. Higher rings assume all lower rings. See [`exkernel.toml`](exkernel.toml) for the canonical ring definitions.
 
 ## Ring 0 -- Kernel (14 terms)
 
@@ -64,6 +64,103 @@ The DDD bridge -- immediately useful for software projects. These terms extend R
 | [integrity](src/integrity.md) | Ability of an Entity to adhere to a chosen philosophy. Promotes trust and predictability. |
 | qualitative | *(pending -- not yet defined)* |
 | quantitative | *(pending -- not yet defined)* |
+
+## Ring 2 -- Extended (85 terms)
+
+Broader ontological terms spanning philosophy, spirituality, cognition, linguistics, and more. These extend Ring 0 and Ring 1 into richer territory.
+
+<details>
+<summary>Click to expand Ring 2 term list</summary>
+
+| Term | File |
+|------|------|
+| abstract | [src/abstract.md](src/abstract.md) |
+| abstract-system | [src/abstract-system.md](src/abstract-system.md) |
+| accuracy | [src/accuracy.md](src/accuracy.md) |
+| aesthetics | [src/aesthetics.md](src/aesthetics.md) |
+| agree | [src/agree.md](src/agree.md) |
+| agreement | [src/agreement.md](src/agreement.md) |
+| analogy | [src/analogy.md](src/analogy.md) |
+| animism | [src/animism.md](src/animism.md) |
+| anthropomorphism | [src/anthropomorphism.md](src/anthropomorphism.md) |
+| art | [src/art.md](src/art.md) |
+| attention-schema | [src/attention-schema.md](src/attention-schema.md) |
+| awareness | [src/awareness.md](src/awareness.md) |
+| axiology | [src/axiology.md](src/axiology.md) |
+| being | [src/being.md](src/being.md) |
+| belief | [src/belief.md](src/belief.md) |
+| belief-system | [src/belief-system.md](src/belief-system.md) |
+| category-theory | [src/category-theory.md](src/category-theory.md) |
+| coercion | [src/coercion.md](src/coercion.md) |
+| compassion | [src/compassion.md](src/compassion.md) |
+| concept | [src/concept.md](src/concept.md) |
+| conceptual-existence | [src/conceptual-existence.md](src/conceptual-existence.md) |
+| conceptual-system | [src/conceptual-system.md](src/conceptual-system.md) |
+| concrescence | [src/concrescence.md](src/concrescence.md) |
+| contextual-systems | [src/contextual-systems.md](src/contextual-systems.md) |
+| control-system | [src/control-system.md](src/control-system.md) |
+| create | [src/create.md](src/create.md) |
+| culture | [src/culture.md](src/culture.md) |
+| disagree | [src/disagree.md](src/disagree.md) |
+| domain-driven-design | [src/domain-driven-design.md](src/domain-driven-design.md) |
+| ecosystem | [src/ecosystem.md](src/ecosystem.md) |
+| emotion | [src/emotion.md](src/emotion.md) |
+| energy | [src/energy.md](src/energy.md) |
+| epistemology | [src/epistemology.md](src/epistemology.md) |
+| ethics | [src/ethics.md](src/ethics.md) |
+| evolutionary-linguistics | [src/evolutionary-linguistics.md](src/evolutionary-linguistics.md) |
+| exist | [src/exist.md](src/exist.md) |
+| expanding-consciousness | [src/expanding-consciousness.md](src/expanding-consciousness.md) |
+| explicit-scope | [src/explicit-scope.md](src/explicit-scope.md) |
+| faith | [src/faith.md](src/faith.md) |
+| feeling | [src/feeling.md](src/feeling.md) |
+| fractal | [src/fractal.md](src/fractal.md) |
+| god | [src/god.md](src/god.md) |
+| heuristic | [src/heuristic.md](src/heuristic.md) |
+| history | [src/history.md](src/history.md) |
+| human | [src/human.md](src/human.md) |
+| humans | [src/humans.md](src/humans.md) |
+| illusion | [src/illusion.md](src/illusion.md) |
+| implicit-scope | [src/implicit-scope.md](src/implicit-scope.md) |
+| inertia | [src/inertia.md](src/inertia.md) |
+| intelligence | [src/intelligence.md](src/intelligence.md) |
+| judgement | [src/judgement.md](src/judgement.md) |
+| judicious | [src/judicious.md](src/judicious.md) |
+| linguistics | [src/linguistics.md](src/linguistics.md) |
+| love | [src/love.md](src/love.md) |
+| natural-law | [src/natural-law.md](src/natural-law.md) |
+| nature | [src/nature.md](src/nature.md) |
+| novelty | [src/novelty.md](src/novelty.md) |
+| ontology | [src/ontology.md](src/ontology.md) |
+| paradox | [src/paradox.md](src/paradox.md) |
+| philosophy | [src/philosophy.md](src/philosophy.md) |
+| physical-existence | [src/physical-existence.md](src/physical-existence.md) |
+| physical-system | [src/physical-system.md](src/physical-system.md) |
+| precision | [src/precision.md](src/precision.md) |
+| prejudice | [src/prejudice.md](src/prejudice.md) |
+| presence | [src/presence.md](src/presence.md) |
+| reality | [src/reality.md](src/reality.md) |
+| redefine | [src/redefine.md](src/redefine.md) |
+| redefinition | [src/redefinition.md](src/redefinition.md) |
+| religion | [src/religion.md](src/religion.md) |
+| respect | [src/respect.md](src/respect.md) |
+| science | [src/science.md](src/science.md) |
+| sexual-reproduction | [src/sexual-reproduction.md](src/sexual-reproduction.md) |
+| signals | [src/signals.md](src/signals.md) |
+| soul | [src/soul.md](src/soul.md) |
+| spirit | [src/spirit.md](src/spirit.md) |
+| spiritual-work | [src/spiritual-work.md](src/spiritual-work.md) |
+| spirituality | [src/spirituality.md](src/spirituality.md) |
+| technology | [src/technology.md](src/technology.md) |
+| this-philosophy | [src/this-philosophy.md](src/this-philosophy.md) |
+| tradition | [src/tradition.md](src/tradition.md) |
+| transcendence | [src/transcendence.md](src/transcendence.md) |
+| unconsciousness | [src/unconsciousness.md](src/unconsciousness.md) |
+| unique | [src/unique.md](src/unique.md) |
+| universal-set | [src/universal-set.md](src/universal-set.md) |
+| violence | [src/violence.md](src/violence.md) |
+
+</details>
 
 ## DDD Mapping
 

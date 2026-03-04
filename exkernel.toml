@@ -2,7 +2,7 @@
 
 [meta]
 name = "existential-kernel/ontology"
-description = "Reference existential ontology — Ring 0 kernel + Ring 1 software terms"
+description = "Reference existential ontology — 114 terms across Ring 0 kernel, Ring 1 software, and Ring 2 extended"
 
 [rings.0]
 name = "kernel"
@@ -20,4 +20,25 @@ terms = [
   "project", "model", "algorithm", "state", "type", "definition",
   "information", "signal", "language", "tool", "environment", "coherence",
   "communication", "collective", "integrity", "qualitative", "quantitative"
+]
+
+[rings.2]
+name = "extended"
+description = "85 terms spanning philosophy, spirituality, cognition, linguistics, and more."
+terms = [
+  "abstract", "abstract-system", "accuracy", "aesthetics", "agree", "agreement",
+  "analogy", "animism", "anthropomorphism", "art", "attention-schema", "awareness",
+  "axiology", "being", "belief", "belief-system", "category-theory", "coercion",
+  "compassion", "concept", "conceptual-existence", "conceptual-system", "concrescence",
+  "contextual-systems", "control-system", "create", "culture", "disagree",
+  "domain-driven-design", "ecosystem", "emotion", "energy", "epistemology", "ethics",
+  "evolutionary-linguistics", "exist", "expanding-consciousness", "explicit-scope",
+  "faith", "feeling", "fractal", "god", "heuristic", "history", "human", "humans",
+  "illusion", "implicit-scope", "inertia", "intelligence", "judgement", "judicious",
+  "linguistics", "love", "natural-law", "nature", "novelty", "ontology", "paradox",
+  "philosophy", "physical-existence", "physical-system", "precision", "prejudice",
+  "presence", "reality", "redefine", "redefinition", "religion", "respect", "science",
+  "sexual-reproduction", "signals", "soul", "spirit", "spiritual-work", "spirituality",
+  "technology", "this-philosophy", "tradition", "transcendence", "unconsciousness",
+  "unique", "universal-set", "violence"
 ]

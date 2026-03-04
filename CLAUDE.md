@@ -1,6 +1,6 @@
 # Existential Kernel -- Ontology
 
-Canonical domain ontology. Defines terms in `src/`, each following the structure in [SPEC.md](SPEC.md).
+Canonical domain ontology with 114 term files across 3 rings. Defines terms in `src/`, each following the structure in [SPEC.md](SPEC.md).
 
 ## Ring 0 -- Kernel (always loaded)
 
@@ -48,6 +48,12 @@ The DDD bridge -- 17 terms immediately useful for software projects.
 | **Integrity** | Ability of an Entity to adhere to a chosen philosophy. |
 | **Qualitative** | *(pending)* |
 | **Quantitative** | *(pending)* |
+
+## Ring 2 -- Extended (85 terms)
+
+Broader ontological terms spanning philosophy, spirituality, cognition, linguistics, and more. These files exist in `src/` but are not assigned to Ring 0 or Ring 1. Examples include: `ontology`, `epistemology`, `axiology`, `ethics`, `philosophy`, `god`, `soul`, `consciousness` derivatives (`awareness`, `attention-schema`, `expanding-consciousness`, `unconsciousness`), system variants (`abstract-system`, `conceptual-system`, `physical-system`, `control-system`), and many others.
+
+See [README.md](README.md) for the full Ring 2 term list.
 
 ## DDD Mapping
 
