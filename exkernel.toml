@@ -1,0 +1,23 @@
+# exkernel.toml — Existential Kernel ontology configuration
+
+[meta]
+name = "existential-kernel/ontology"
+description = "Reference existential ontology — Ring 0 kernel + Ring 1 software terms"
+
+[rings.0]
+name = "kernel"
+description = "14 universal terms, always loaded. The existential scope."
+terms = [
+  "existence", "entity", "abstraction", "scope", "context", "resolution",
+  "pattern", "system", "domain", "focus", "perspective", "consciousness",
+  "evolution", "story"
+]
+
+[rings.1]
+name = "software"
+description = "The DDD bridge — immediately useful for software projects."
+terms = [
+  "project", "model", "algorithm", "state", "type", "definition",
+  "information", "signal", "language", "tool", "environment", "coherence",
+  "communication", "collective", "integrity", "qualitative", "quantitative"
+]
