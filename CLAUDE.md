@@ -1,4 +1,4 @@
-# Existential Kernel -- Ontology
+# Existence Lang -- Ontology
 
 Canonical domain ontology with 114 term files across 3 rings. Defines terms in `src/`, each following the structure in [SPEC.md](SPEC.md).
 

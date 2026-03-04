@@ -1,7 +1,7 @@
 # exkernel.toml — Existential Kernel ontology configuration
 
 [meta]
-name = "existential-kernel/ontology"
+name = "existence-lang/ontology"
 description = "Reference existential ontology — 114 terms across Ring 0 kernel, Ring 1 software, and Ring 2 extended"
 
 [rings.0]

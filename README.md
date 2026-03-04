@@ -1,4 +1,4 @@
-# Existential Kernel -- Ontology
+# Existence Lang -- Ontology
 
 A domain ontology organized in concentric rings with 114 term files. Ring 0 is the universal kernel -- 14 terms that model Existence at the broadest scope. Ring 1 bridges the kernel to software engineering via Domain-Driven Design concepts. Ring 2 extends the ontology with 85 additional terms covering philosophy, spirituality, cognition, and other domains.
 
@@ -12,7 +12,7 @@ Ring 1 (software)  -- 17 terms bridging to DDD and software domains (2 pending)
 Ring 2 (extended)  -- 85 terms across philosophy, spirituality, cognition, and more
 ```
 
-Rings are additive. Ring 1 assumes Ring 0. Higher rings assume all lower rings. See [`exkernel.toml`](exkernel.toml) for the canonical ring definitions.
+Rings are additive. Ring 1 assumes Ring 0. Higher rings assume all lower rings. See [`exkernel.toml`](exkernel.toml) for the canonical ring definitions. (The `existence` CLI reads this file.)
 
 ## Ring 0 -- Kernel (14 terms)
 
