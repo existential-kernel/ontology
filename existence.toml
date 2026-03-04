@@ -1,4 +1,4 @@
-# exkernel.toml — Existential Kernel ontology configuration
+# existence.toml — Existential Kernel ontology configuration
 
 [meta]
 name = "existence-lang/ontology"

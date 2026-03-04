@@ -12,7 +12,7 @@ Ring 1 (software)  -- 17 terms bridging to DDD and software domains (2 pending)
 Ring 2 (extended)  -- 85 terms across philosophy, spirituality, cognition, and more
 ```
 
-Rings are additive. Ring 1 assumes Ring 0. Higher rings assume all lower rings. See [`exkernel.toml`](exkernel.toml) for the canonical ring definitions. (The `existence` CLI reads this file.)
+Rings are additive. Ring 1 assumes Ring 0. Higher rings assume all lower rings. See [`existence.toml`](existence.toml) for the canonical ring definitions. (The `existence` CLI reads this file.)
 
 ## Ring 0 -- Kernel (14 terms)
 
